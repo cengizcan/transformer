@@ -26,11 +26,11 @@ public class Executer implements Callable<Integer> {
     static class InputOption {
         @Option(names = {"-i", "--input"}, required = true, description = "User input to transform")
         String input;
-        @Option(names = {"-f", "--file"}, required = true, description = "File to transform")
+        @Option(names = {"-f", "--file"}, required = true, description = "Path of the file to transform")
         String inputFilePath;
     }
 
-    @Option(names = {"-of", "--out-file"}, description = "If set output will be written to file instead of console")
+    @Option(names = {"-of", "--out-file"}, description = "If set output will be written to the given path instead of console")
     String outputFilePath;
 
     /**
