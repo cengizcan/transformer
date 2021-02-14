@@ -31,7 +31,7 @@ docker container run -it transformer-cengizcan /bin/bash
 ```
 Run CLI application in docker container:
 ```bash
-java -jar transformer.jar -f /test-data/case-1.csv
+java -jar transformer.jar -f ./test-data/case-1.csv
 ```
 
 ### CLI Parameters
