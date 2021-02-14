@@ -16,7 +16,7 @@ Sarah,Robinson,54,,blue
 ```
 Running with file input:
 ```bash
-java -jar ./bin/transformer.jar -f test-data/case-1.csv
+java -jar ./bin/transformer.jar -f ./test-data/case-1.csv
 ```
 ### Running in Docker
 Navigate to project root. If you want to add your own CSV files for testing, copy them to the `test-data` directory in the project root.
